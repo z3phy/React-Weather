@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --open"
   },
   "author": "Stephen M",
-  "license": "ISC",
+  "license": "GPL",
   "babel": {
     "presets": [
       "env",
@@ -33,6 +33,7 @@
     "proptypes": "^0.14.4",
     "react": "^16.0.0-alpha.5",
     "react-dom": "^16.0.0-alpha.5",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.1.1",
+    "url-loader": "^0.5.8"
   }
 }

@@ -18,29 +18,36 @@ body {
   box-sizing: border-box;
 }
 
-.box {
-  top: 0;
+.form {
+  margin: 0 auto;
+  top: 10%;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 500px;  /* put this to 0 when done */
   position: absolute;
-  margin: auto;
   width: 500px;
   height: 300px;
 }
 
 .info {
-  padding-left: 20%;
+  text-align: center;
   font-weight: 300;
-  font-size: 35pt;
+  font-size: 45pt;
   color: white;
 }
 
 .input {
-  margin-left: 27.75%;
-  width: 196px;
-  height: 30px;
-  padding: 4px 15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: -20px;
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-style: hidden;
+    border-radius: 3px;
 }
 
 .button {
@@ -49,16 +56,160 @@ body {
   border: none;
   font-size: 16px;
   border-radius: 3px;
-  width: 200px;
+  width: 150px;
   text-align: center;
   display: block;
   padding: 7px 0;
-  margin: 10px auto;
-  margin-left: 30.75%;
+  margin: 0 auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 10px;
 }
 
 .button:hover:enabled {
   background: #10c553;
   color: #fff;
   text-decoration: none;
+}
+
+.card {
+    background-color: white;
+    width: 550px;
+    height: 465px;
+    margin: 0 auto;
+    left: -25px;
+    right: 0;
+    top: 50px;
+    botton: 0;
+    position: relative;
+    padding: 0;
+    border-radius: 7px;
+    border-radius-left: 0;
+    /* box-shadow: 1px 1px 3px; */
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.tab {
+    background-color: #cfd2d6;
+    list-style-type: none;
+    width: 110px;
+    height: 100px;
+    opacity: 0.3;
+    display: inline-block;
+}
+
+.tab:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.tab img {
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+    opacity: 1;
+}
+
+.top-right {
+    border-top-right-radius: 7px;
+}
+
+.top-left {
+    border-top-left-radius: 7px;
+}
+
+.weatherinfo {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0;
+    color: #111111;
+}
+
+.weather {
+    font-size: 27px;
+    color: #83A5B3;
+    display: inline;
+    margin: 0;
+}
+
+.date {
+    font-size: 20px;
+    color: #83A5B3;
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 40px;
+    float: right;
+    display: inline-block;
+}
+
+.times {
+    float: right;
+    list-style-type: none;
+    text-align: right;
+}
+
+.times img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.times p {
+    color: #83A5B3;
+    float: left;
+    display: block;
+    width: 40px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+.day {
+    font-size: 21px;
+    color: #83A5b3;
+    display: inline;
+    padding-left: 60px;
+}
+
+.news {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 25px;
+    max-width: 340px;
+}
+
+.news>p {
+    font-size: 20px;
+    color: #83A5b3;
+}
+
+.news>a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.news>a:hover {
+    color: #10c55c;
+}
+
+.time {
+    /* position: absolute; */
+}
+
+.temp {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5.5px;
+    height: 46px;
+    width: auto;
+    margin: 0;
+    margin-top: 13px;
 }
